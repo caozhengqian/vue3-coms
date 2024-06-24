@@ -1,9 +1,10 @@
 import { App } from 'vue'
 import chooseIcon from './chooseIcon'
 import chooseArea from './chooseArea'
+import chooseCity from './chooseCity'
 
 const components = [
-  chooseIcon, chooseArea
+  chooseIcon, chooseArea, chooseCity
 ]
 
 export default {

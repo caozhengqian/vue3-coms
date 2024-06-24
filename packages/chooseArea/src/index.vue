@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="display: flex">
     <el-select clearable placeholder="请选择省份" v-model="province">
       <el-option v-for="item in areas" :key="item.code" :value="item.code" :label="item.name"></el-option>
     </el-select>

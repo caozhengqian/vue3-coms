@@ -1,12 +1,13 @@
 import { App } from 'vue'
 import chooseIcon from './chooseIcon'
 import chooseArea from './chooseArea'
+import chooseCity from './chooseCity'
 import './styles/ui.scss'
 import './styles/base.scss'
 import {toLine} from "./utils"
 import * as Icons from '@element-plus/icons-vue'
 const components = [
-  chooseIcon, chooseArea
+  chooseIcon, chooseArea, chooseCity
 ]
 
 export default {

@@ -1,6 +1,6 @@
 {
   "name": "@webscom/vue3-coms",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "index.umd.js",
   "module": "index.es.js",

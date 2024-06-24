@@ -5,9 +5,7 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import * as Icons from '@element-plus/icons-vue'
 import { toLine } from './utils'
-// import UI from "../lib/vue3-element-components.es"
-import ChooseIcon from '../lib222/chooseIcon/index.es.js'
-import "../lib222/style.css"
+import UI from "./components"
 
 const app = createApp(App)
 for (let i in Icons) {
@@ -15,5 +13,5 @@ for (let i in Icons) {
 }
 app.use(router).use(ElementPlus)
     // .use(UI)
-    .use(ChooseIcon)
+    .use(UI)
 app.mount('#app')

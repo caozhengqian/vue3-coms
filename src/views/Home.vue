@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <el-button>aaa</el-button>
+    <m-choose-city />
     <el-icon-edit/>
   </div>
 </template>
