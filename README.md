@@ -1,5 +1,5 @@
 
-## Vue 3 + elementPlus组件编写步骤
+## 公司组件编写架构流程
 1. 编写组件后，copy到`packages`
 2. 在`packages/index.ts`引入组件
 3. `npm run lib`生成lib文件
