@@ -6,10 +6,14 @@
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "build:components": "node ./command/build.js",
-    "lib": "npm run build:components && copy package.json"
+    "lib": "npm run build:components && copy package.json",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "@webscom/vue3-coms": "^1.0.4",
     "element-plus": "^2.7.6",
     "vue": "^3.2.16",
     "vue-router": "^4.4.0"
@@ -21,6 +25,7 @@
     "sass-loader": "^14.2.1",
     "typescript": "^4.4.3",
     "vite": "^2.5.10",
+    "vitepress": "^1.2.3",
     "vue-tsc": "^0.3.0"
   }
 }
