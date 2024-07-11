@@ -1,6 +1,5 @@
 ## 编写公司组件四步骤(node18+)
-* [点击这里访问官网](http://www.daqianaierzi.com:81/introduction.html)
-<a href="http://www.daqianaierzi.com:81/introduction.html">点击这里访问我的博客</a>
+<a href="http://www.daqianaierzi.com:81/introduction.html">点击这里访问官网</a>
 
 * 安装npm
 ```js
