@@ -1,6 +1,6 @@
 ## 编写公司组件四步骤(node18+)
-安装：
-* npm
+* 官网：http://www.daqianaierzi.com:81/introduction.html
+* 安装npm
 ```js
   npm i @webscom/vue3-coms element-plus @element-plus/icons-vue
 ```
@@ -12,8 +12,8 @@
   import "@webscom/vue3-coms/style.css"
 ```
 * 引用：
-* ```js
-createApp(App).`use(ElementPlus)`.`use(MUI)`.mount('#app')
+ ```js
+createApp(App).use(ElementPlus).use(MUI).mount('#app')
 ```
 
 此项目包含公司编写组件全流程
