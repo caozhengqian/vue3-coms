@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "MUI",
   description: "A VitePress Site",
-  base:"/",
+  base:"/vue3-coms",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
